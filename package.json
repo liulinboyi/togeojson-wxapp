@@ -1,16 +1,21 @@
 {
-  "name": "togeojson-wxapp",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@liulinboyi/togeojson-wxapp",
+  "version": "0.1.1",
+  "description": "togeojson-wxapp",
+  "main": "dist/togeojson-wxapp.es.js",
+  "module": "dist/togeojson-wxapp.esm-browser.js",
+  "browser": "dist/togeojson-wxapp.global.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production rollup -c",
     "dev": "rollup -c -w",
     "fix": "./node_modules/.bin/eslint --fix --ext .js src/"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "author": "Albert Liu",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "eslint": "^7.5.0",
     "@babel/core": "^7.10.5",
     "@babel/plugin-transform-runtime": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
@@ -24,8 +29,7 @@
     "rollup-plugin-uglify": "^6.0.4",
     "xmldom": "^0.3.0"
   },
-  "devDependencies": {
-    "cross-env": "^7.0.2",
-    "eslint": "^7.5.0"
-  }
+  "files": [
+    "dist"
+  ]
 }
