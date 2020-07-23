@@ -1,6 +1,6 @@
 {
   "name": "@liulinboyi/togeojson-wxapp",
-  "version": "0.1.1",
+  "version": "0.1.11",
   "description": "togeojson-wxapp",
   "main": "dist/togeojson-wxapp.es.js",
   "module": "dist/togeojson-wxapp.esm-browser.js",
