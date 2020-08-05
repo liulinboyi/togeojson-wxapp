@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/v/togeojson-wxapp)
+
 # kml、gpx格式转geojson格式。
 # 可在小程序、浏览器、Node使用。
 
