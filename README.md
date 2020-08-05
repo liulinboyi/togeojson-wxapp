@@ -4,14 +4,20 @@
 # 使用
 
 ```
-npm install @liulinboyi/togeojson-wxapp@0.1.11
+npm install togeojson-wxapp
 ```
 
 # 例子
 
 ## 浏览器：[立即体验](https://blog.heyliubo.top/togeojson-wxapp/example/index.html)
+
 ## 小程序：待补充
-## Node：待补充
+
+## Node：
+```javascript
+const togeojsonWxapp = require('togeojson-wxapp/dist/togeojson-wxapp.cjs')
+togeojsonWxapp.togeojson()
+```
 
 # API
 
